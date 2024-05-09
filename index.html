@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dibujando con la voz</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="text-center p-3 mb-2 bg-light text-dark">
+        <h1>Dibujando con la voz</h1>
+        <p>Usa tu voz para dibujar manzanas en la pantalla. Di un número y el sistema dibujará ese número de manzanas.</p>
+        <span id="font-size"></span>
+    </header>
+    <canvas id="canvas"></canvas>
+    <footer class="text-center p-3 mt-2 bg-dark text-white">
+        <p>&copy; 2023 Dibujando con la voz</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

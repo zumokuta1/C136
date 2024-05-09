@@ -1,0 +1,16 @@
+body {
+    background-image: url('fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#canvas {
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin: 20px auto;
+}
